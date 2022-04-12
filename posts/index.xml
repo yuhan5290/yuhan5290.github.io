@@ -14,7 +14,7 @@
       
       <guid>http://example.org/2022/03/hello-world/</guid>
       <description>welcome 2022.3.17
-𓆝𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛 Bayes Theorem $$ P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|A^c)P(A^c)} $$ When X, YX,Y are discrete r.v. with pmf’s $$ P(Y=y|X=x) = \frac{P(X=x|Y=y)P(Y=y)}{\sum_{u \in \mathcal{Y}} P(X=x|Y=u)P(Y=u)} $$
+𓆝𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜 Bayes Theorem $$ P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|A^c)P(A^c)} $$ When X, YX,Y are discrete r.v. with pmf’s $$ P(Y=y|X=x) = \frac{P(X=x|Y=y)P(Y=y)}{\sum_{u \in \mathcal{Y}} P(X=x|Y=u)P(Y=u)} $$
 $$ \sum_{u \in \mathcal{Y}}P(X=x|Y=u)P(Y=u) $$</description>
     </item>
     

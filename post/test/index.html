@@ -5,16 +5,24 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" Posts &middot;  yuhan" />
+  	<meta property="og:title" content=" test post &middot;  yuhan" />
   	<meta property="og:site_name" content="yuhan" />
-  	<meta property="og:url" content="http://example.org/posts/" />
+  	<meta property="og:url" content="http://example.org/post/test/" />
     
     
-    <meta property="og:type" content="website" />
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-01-01T00:00:00Z" />
+
+    
+    <meta property="og:article:tag" content="blog" />
+    
+    <meta property="og:article:tag" content="test" />
+    
     
 
   <title>
-     Posts &middot;  yuhan
+     test post &middot;  yuhan
   </title>
 
     <meta name="description" content="this is my description" />
@@ -34,12 +42,10 @@
           <link href="http://example.org/index.xml" rel="alternate" type="application/rss+xml" title="yuhan" />
       
       
-        <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Posts &middot; yuhan" />
-      
     
     <meta name="generator" content="Hugo 0.95.0" />
 
-    <link rel="canonical" href="http://example.org/posts/" />
+    <link rel="canonical" href="http://example.org/post/test/" />
 
      
 </head>
@@ -52,100 +58,78 @@
 
 
 
-
-	<header class="main-header" style="background-image: url(http://example.org/images/user.jpg)">
+<header class="main-header " style="background-image: url(http://example.org/images/user.jpg)">
 
     <nav class="main-nav overlay clearfix">
-      
-        <a class="blog-logo" href="http://example.org/"><img src="http://example.org/images/user.png" alt="Home" /></a>
-      
-      
         
-          <a class="menu-button icon-feed" href="/posts/index.xml">&nbsp;&nbsp;Subscribe</a>
+            <a class="blog-logo" href="http://example.org/"><img src="http://example.org/images/user.png" alt="Blog Logo" /></a>
         
-      
+        
     </nav>
-    <div class="vertical">
-
+<div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">
-
               <a class="btn-bootstrap-2" href="#content">yuhan</a>
           </h1>
+          <h2 class="page-description">this is my description</h2>
         </div>
 </div>
     <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
 </header>
 
-<main id="content" class="content" role="main">
-    
-    
-    
-    
+  <main id="content" class="content" role="main">
 
-	<div class="extra-pagination inner">
-    <nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 1</span>
-	
-</nav>
 
-	</div>
+  <article class="post post">
 
-	
-	   
-<article class="post posts">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2022/03/hello-world/">Hello World</a></h2>
+        <h1 class="post-title">test post</h1>
+        <section class="post-meta">
+        
+	<time class="post-date" datetime="2016-01-01">
+            2016-01-01
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://example.org/tags/blog/">#blog</a></span>
+         
+          <span class="post-tag small"><a href="http://example.org/tags/test/">#test</a></span>
+         
+        </section>
     </header>
-    <section class="post-excerpt">
-      <p>
-          <section class="post-content">
-            <h2 id="welcome">welcome</h2>
-<p>2022.3.17</p>
-<h1 id="𓆝𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜">𓆝𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜𓆞𓆛𓆟𓆜</h1>
-<p>Bayes Theorem
-$$
-P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|A^c)P(A^c)}
-$$
-When X, Y<em>X</em>,<em>Y</em> are discrete r.v. with pmf’s
-$$
-P(Y=y|X=x) = \frac{P(X=x|Y=y)P(Y=y)}{\sum_{u \in \mathcal{Y}} P(X=x|Y=u)P(Y=u)}
-$$</p>
-<p>$$
-\sum_{u \in \mathcal{Y}}P(X=x|Y=u)P(Y=u)
-$$</p>
 
-          </section>
-      </p>
-      
+    <section class="post-content">
+      <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;hello world !!&#34;</span>
+</span></span></code></pre></div>
     </section>
-    <footer class="post-meta">
-        
-            <img class="author-thumb" src="http://example.org/images/user.png" alt="Author image" nopin="nopin" />
-        
-        
-            yuhan
-        
-        
-        <time class="post-date" datetime="2022-03-17T20:07:33&#43;08:00">
-            17 Mar 2022
-        </time>
-    </footer>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+
+        <a class="img" href="http://example.org/" style="background-image: url(http://example.org/images/user.png)"><span class="hidden">yuhan</span></a>
+    </figure>
+    
+
+    <section class="author">
+
+  <p>yuhan</p>
+  
+
+</section>
+
+
+    
+
+    
+
+  </footer>
 </article>
 
-	
-
-	<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 1</span>
-	
-</nav>
-
 </main>
-
-
-
     <footer class="site-footer clearfix">
         <section class="copyright"><a href="">yuhan</a> </section>
         
