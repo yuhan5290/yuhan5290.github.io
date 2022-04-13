@@ -2,26 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on yuhan</title>
-    <link>http://example.org/tags/</link>
+    <link>https://yuhan5290.github.io/tags/</link>
     <description>Recent content in Tags on yuhan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://yuhan5290.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
-      <link>http://example.org/tags/blog/</link>
+      <link>https://yuhan5290.github.io/tags/blog/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/blog/</guid>
+      <guid>https://yuhan5290.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>http://example.org/tags/test/</link>
+      <link>https://yuhan5290.github.io/tags/test/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/test/</guid>
+      <guid>https://yuhan5290.github.io/tags/test/</guid>
       <description></description>
     </item>
     
